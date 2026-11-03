@@ -1,7 +1,8 @@
 from django.db import models
 
-from .user import User
 from .category import Category
+from .user import User
+
 
 # Create your models here.
 class Post(models.Model):
