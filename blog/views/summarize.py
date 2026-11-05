@@ -5,7 +5,6 @@ from ..ai_content.services.summarize import (
     summarize_post,
 )
 
-@csrf_exempt
 @require_POST
 def summarize_post_view(request, post_id):
     """
